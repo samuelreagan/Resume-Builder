@@ -1,0 +1,72 @@
+{
+  "personalInfo": {
+    "name": "John Smith",
+    "phone": "123-456-789",
+    "email": "john.smith@example.com",
+    "website": "johnsmith.com"
+  },
+  "experience": [
+    {
+      "current": "true",
+      "tenure": "May 2017 - Present",
+      "role": "Software Developer",
+      "company": "Apple",
+      "location": "Cupertino, CA",
+      "descriptions": [
+        "Part of the development team that designs the product pages on Apple's main website."
+      ]
+    },
+    {
+      "current": "false",
+      "tenure": "May 2016 - May 2017",
+      "role": "Software Development Intern",
+      "company": "Apple",
+      "location": "Cupertino, CA",
+      "descriptions": [
+        "Worked with the iCloud team on their web application.",
+        "Helped redesign the interface to increase usability."
+      ]
+    },
+    {
+      "current": "false",
+      "tenure": "Aug 2014 - May 2016",
+      "role": "Computer Science Tutor",
+      "company": "Stanford",
+      "location": "Stanford, CA",
+      "descriptions": [
+        "Tutored students in the basic computer science courses using Python."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "current": "false",
+      "tenure": "Aug 2013 - May 2017",
+      "degree": "BS Computer Science",
+      "college": "Stanford University",
+      "location": "Stanford, CA",
+      "descriptions": [
+        "Cumulative GPA 3.7, Major GPA: 4.0",
+        "Studied Algorithms, Data Structures, and Databases."
+      ]
+    }
+  ],
+  "languages": {
+    "Programming": [ "JavaScript", "TypeScript", "Python"],
+    "Markup/Style": [ "HTML", "CSS", "SASS"],
+    "Database": [ "MYSQL"]
+  },
+  "tools": [
+    "Git",
+    "Azure Dev Ops",
+    "Microsoft Office"
+  ],
+  "awards": [
+    {
+      "name": "1st Place Web Design",
+      "event": "Stanford Web Design Competition",
+      "date": "May 2015",
+      "location": "Stanford, CA"
+    }
+  ]
+}

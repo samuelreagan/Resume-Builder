@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  width: 8.5in;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0.5rem;
+}
+
+main {
+  display: flex;
+}
+
+section > h2 {
+  margin-bottom: 0.5rem;
+}
+
+section > article {
+  display: flex;
+}
+
+ul  {
+  padding-left: 1.2rem;
+}
+
+.col {
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  width: 70%;
+}
+
+.col:nth-child(2) {
+  border-left: 2px solid #000;
+  padding-left: 1rem;
+  width: 30%;
+}
+
+.qualifications article {
+  margin-bottom: 0.5rem;
+}
+
+.tenure {
+  margin-right: 1rem;
+  width: 20%;
+}
+
+.info {
+  width: 80%;
+}
+
+.current, .role, .info-header {
+  font-weight: bold;
+}
+
+.location {
+  font-style: italic;
+}
+
+.qualifications, .personal-info {
+  margin-bottom: 1rem;
+}
+
+.template {
+  display: none;
+}
+
+@media print {
+  body {
+    border: none;
+  }
+}
