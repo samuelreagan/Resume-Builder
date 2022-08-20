@@ -9,6 +9,7 @@ body {
   border-left: 2px solid #333;
   border-right: 2px solid #333;
   font-family: 'Open Sans', sans-serif;
+  font-size: .95rem;
   margin: auto;
   width: 8.5in;
 }
@@ -32,6 +33,10 @@ section > article {
 
 ul  {
   padding-left: 1.2rem;
+}
+
+ul > li:not(:last-child) {
+  margin: .15rem 0;
 }
 
 .col {
